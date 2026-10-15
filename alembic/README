@@ -1,0 +1,3 @@
+CoolRoute database migrations managed by Alembic.
+
+Use `alembic upgrade head` to apply all migrations and `alembic downgrade -1` to roll back one revision.
