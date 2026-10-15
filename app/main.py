@@ -5,7 +5,6 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
-from app.chat import show_chat
 from app.formatters import map_coordinates
 from db.queries import (
 	get_active_shipments,
@@ -85,7 +84,7 @@ page = st.sidebar.radio("Navigate", ["Dashboard", "Chat", "Audit"])
 if page == "Dashboard":
 	show_dashboard()
 elif page == "Chat":
-	show_chat()
+	show_placeholder("Chat", "The dispatch assistant will be added in Phase 2.")
 else:
 	show_placeholder("Audit", "Audit events will be added in Phase 6.")
 
