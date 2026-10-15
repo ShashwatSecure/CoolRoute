@@ -47,3 +47,6 @@ Thumbs.db
 
 # Legacy project directory
 /MentionAlert/
+
+# Documentation
+docs/
